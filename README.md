@@ -13,3 +13,18 @@ sources used:
 Collaborated with:
 
         Angus Abels: aabels
+
+
+compileSDKVersion 23
+buildToolsVersion "23.0.3"
+minSdkVersion 18
+targetSdkVersion 23
+
+Dependencies:
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    testCompile 'junit:junit:4.12'
+
