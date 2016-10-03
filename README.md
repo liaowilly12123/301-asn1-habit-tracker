@@ -14,13 +14,13 @@ Collaborated with:
 
         Angus Abels: aabels
 
-
 compileSDKVersion 23
 buildToolsVersion "23.0.3"
 minSdkVersion 18
 targetSdkVersion 23
 
 Dependencies:
+
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
