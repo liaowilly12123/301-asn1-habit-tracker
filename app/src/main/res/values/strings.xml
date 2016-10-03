@@ -1,0 +1,21 @@
+<resources>
+    <!-- For activity_main-->
+    <string name="app_name">tingwei-HabitTracker</string>
+    <string name="plus_button">+</string>
+    <string name="delete_button">-</string>
+    <string name="history_button">History</string>
+
+    <!-- For activity_add_page-->
+    <string name="habit_text">Habit</string>
+    <string name="add_a_habit">Add a Habit</string>
+    <string name="add_text">Add</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="sunday">Su</string>
+    <string name="monday">Mo</string>
+    <string name="tuesday">Tu</string>
+    <string name="wednesday">We</string>
+    <string name="thursday">Th</string>
+    <string name="friday">Fr</string>
+    <string name="saturday">Sa</string>
+</resources>
